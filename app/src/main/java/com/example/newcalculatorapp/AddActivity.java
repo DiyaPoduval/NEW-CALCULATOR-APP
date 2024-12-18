@@ -37,10 +37,10 @@ public class AddActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
                                   @Override
                                   public void onClick(View v) {
-                                      Intent ob4 = new Intent(getApplicationContext(), MainActivity);
+                                      Intent ob4 = new Intent(getApplicationContext(),MainActivity.class);
                                       startActivity(ob4);
                                   }
-                              }
+                              });
                 b1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
